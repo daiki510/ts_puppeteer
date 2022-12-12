@@ -26,6 +26,5 @@ const selectors = {
     newsList.push({ title, url });
   }
   console.log(newsList);
-  // await page.screenshot({ path: `tmp/sample.png` });
   await browser.close();
 })();
